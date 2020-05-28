@@ -1,0 +1,211 @@
+*	{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background:url(../img/606695.jpg); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;  
+	background-attachment: fixed; 
+	color: Yellow;
+}
+
+#Contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+header {
+	height: 150px;
+	background: Black;
+}
+header h1{
+	font-size: 50px;
+	text-align: center;
+	line-height: 150px;
+}
+
+.center{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 0px;
+	border-style: dotted;
+
+}
+.center img{
+	float: left;
+}
+
+img{
+	transition: all 0.5s linear;
+}
+img:hover{
+	transform: scale(0.9);
+}
+
+nav {
+	background: RED;
+	height: 60px;
+}
+nav h2{
+	font-size: 35px;
+	text-align: center;
+	line-height: 60px;
+}
+#Contenido {
+	width: 960px;
+	height: 4300px;
+	float: left;
+	background: grey;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#Contenido h2{
+	font-size: 35px;
+	text-align: center;
+	line-height: 100px;
+}
+#Contenido h3{
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	}
+
+
+
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: table;
+	justify-content: center;
+	position: center;
+}
+
+.tarjeta-wrap{
+margin:100px;
+-webkit-perspective: 600;
+perspective: 600;	
+position: center;
+}
+.tarjeta{
+	width: 500px;
+	height: 350px;
+	background:Red;
+	position: center;
+	transform-style: preserve-3d;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	-moz-box-shadow:0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65)
+		position: center;
+	
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: center;
+}
+
+.atras{
+	transform: rotateY(180deg);
+		padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	color: Black;
+	font-family: "open sans";
+	position: center;
+
+}
+
+.adelante{
+	width: 100%;
+	position: center;
+
+}
+
+.tarjeta-wrap:hover	.tarjeta{
+
+	transform: rotateY(180deg);
+	position: center;
+
+}
+
+
+.card1{
+	background:url(../img/236870.jpg);
+	background-position: center center;
+
+	background-size: cover;  
+
+ 
+}
+
+
+.card2{
+	background:url(../img/324338.jpg);
+	background-position: center center;
+
+	background-size: cover;  
+
+}
+
+
+
+.card3{
+	background:url(../img/816813.png);
+background-position: center center;
+
+	background-size: cover;  
+}
+
+
+
+.card4{
+	background:url(../img/37078.jpg);
+background-position: center center;
+
+	background-size: cover;  
+}
+
+
+
+.card5{
+	background:url(../img/646226.jpg);
+	background-position: center center;
+
+	background-size: cover;  
+}
+
+.menp{
+	position: right;
+}
+.menp h4{
+	position: center;
+}
+
+
+
+footer{
+	background: Purple;
+	clear: both;
+
+}
+

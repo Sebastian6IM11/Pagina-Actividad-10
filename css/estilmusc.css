@@ -1,0 +1,31 @@
+body {
+    background:url(../img/gorillaz.gif);
+   background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;  
+	background-attachment: fixed; 
+       color:Red;
+}
+#playlist, audio{
+ background:#666;
+  width:400px;
+  padding:20px;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration:none;
+}
+.active a {
+  color:#5DB0E6;
+  text-decoration:none;
+}
+li a{
+  color:Red;
+  background:black;
+  padding:5px;
+  display:block;
+}
+li a:hover{
+  text-decoration:none;
+}
